@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <template id="elypse_document_format.report_invoice_document"
+              inherit_id="account.report_invoice_document">
+            <xpath expr='//div[@name="comment"]' position="replace">
+                <ul>
+                    <li>
+                        <b>Nº de Cuenta: BBVA - ES66 0182 0405 6602 0157 8080</b>
+                    </li>
+                </ul>
+            </xpath>
+            <xpath expr='//table[@name="invoice_line_table"]/thead/tr/th[@name="th_taxes"]' position="replace">
+
+            </xpath>
+            <xpath expr='//table[@name="invoice_line_table"]/tbody/t/tr/t[@name="account_invoice_line_accountable"]/td[5]' position="replace">
+
+            </xpath>
+        </template>
+    </data>
+</odoo>
