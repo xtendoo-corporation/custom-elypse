@@ -7,11 +7,6 @@
                 <div t-if="not is_html_empty(o.narration)" name="comment">
                         <span t-field="o.narration"/>
                     </div>
-                <ul>
-                    <li>
-                        <b>Nº de Cuenta: BBVA - ES66 0182 0405 6602 0157 8080</b>
-                    </li>
-                </ul>
             </xpath>
             <xpath expr='//table[@name="invoice_line_table"]/thead/tr/th[@name="th_taxes"]' position="replace">
 
