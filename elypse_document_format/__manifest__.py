@@ -1,7 +1,7 @@
 {
     "name": "Elypse Document Format",
     "summary": """Formatos de documentos entregados por Xtendoo""",
-    "version": "17.0.1.4.6",
+    "version": "18.0.2.0.7",
     "description": """Formatos de documentos entregados por Xtendoo""",
     "author": "Daniel Dominguez",
     "company": "Xtendoo",
